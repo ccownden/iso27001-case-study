@@ -2,7 +2,7 @@
 
 ## **1\. Executive Summary**
 
-While working as Community Strategist at AppSumo, I identified an access-control weakness within AppSumo Plus**,** a \$99/year membership programme representing approximately 15–20% of AppSumo's revenue at the time.
+While working as Community Strategist at AppSumo, I identified an access-control weakness within AppSumo Plus, a \$99/year membership programme representing approximately 15–20% of AppSumo's revenue at the time.
 
 AppSumo Plus provided members with a range of benefits, including discounts, coupons, early access to products, exclusive deals, VIP support and access to *The Sauce*, a private community for Plus members.
 
@@ -44,15 +44,15 @@ Membership benefits included:
 
 The private community formed part of the paid membership proposition.
 
-## **The Community**
+## The Community
 
-The community was hosted using Circle.
+The community was hosted using Circle.so
 
 Access to the community was intended to be restricted to active Plus members. However, because the existing Circle plan did not support SSO, there was no centralised mechanism linking a user's community identity directly to their current Plus subscription.
 
 This created a gap between subscription entitlement and community access.
 
-## **Stakeholders**
+## Stakeholders
 
 The key stakeholders included:
 
@@ -70,7 +70,7 @@ My role as Community Strategist included responsibility for the strategic direct
 
 My primary KPI was revenue, rather than information security.
 
-# **3\. Identified Risk**
+# 3\. Identified Risk
 
 The primary risk was that former Plus members could retain unauthorised access to a paid members-only community after their subscription had ended.
 
@@ -89,7 +89,7 @@ If customers paying \$99 per year discovered that non-paying users could access 
 
 There was also a potential revenue risk. If paying members questioned why they were paying for benefits that were available to non-paying users, this could contribute to dissatisfaction, churn or reduced willingness to subscribe.
 
-## **Reporting Risk**
+## Reporting Risk
 
 The problem also affected business reporting.
 
@@ -109,15 +109,15 @@ This reduced the accuracy of reporting about the actual active membership popula
 
 From a retrospective information security perspective, the issue created a confidentiality risk because information intended for Plus members could potentially be accessed by former members.
 
-## **Integrity**
+## Integrity
 
 There was also an integrity risk because the community's access state did not accurately reflect the underlying subscription entitlement.
 
-## **Availability**
+## Availability
 
 Availability was not considered a significant impact in this scenario.
 
-# **4\. Risk Assessment**
+# 4\. Risk Assessment
 
 No formal risk rating was assigned at the time. The issue was initially approached as a business and operational problem rather than through a formal information security risk-management process.
 
@@ -142,9 +142,9 @@ There was no evidence of malicious exploitation at the time.
 
 The most realistic exploitation scenario was a former member deliberately retaining access and potentially sharing member-only information externally.
 
-**5\. Risk Treatment**
+5\. Risk Treatment
 
-## **Options Considered**
+## Options Considered
 
 Before implementing the compensating control, I investigated several possible approaches.
 
